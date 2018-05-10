@@ -13,6 +13,7 @@ import { ProjectShareSharedModule, UserRouteAccessService } from './shared';
 import { ProjectShareAppRoutingModule} from './app-routing.module';
 import { ProjectShareHomeModule } from './home/home.module';
 import { ProjectShareAdminModule } from './admin/admin.module';
+import { ProjectSharePagesModule } from './pages/pages.module';
 import { ProjectShareAccountModule } from './account/account.module';
 import { ProjectShareEntityModule } from './entities/entity.module';
 import { PaginationConfig } from './blocks/config/uib-pagination.config';
@@ -36,6 +37,7 @@ import {
         ProjectShareSharedModule,
         ProjectShareHomeModule,
         ProjectShareAdminModule,
+        ProjectSharePagesModule,
         ProjectShareAccountModule,
         ProjectShareEntityModule,
         // jhipster-needle-angular-add-module JHipster will add new module here
