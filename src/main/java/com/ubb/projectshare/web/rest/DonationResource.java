@@ -46,13 +46,10 @@ public class DonationResource {
 
     private final DonationService donationService;
 
-    private final MailService mailService;
-
-    public DonationResource(DonationRepository donationRepository, DonationService donationService, MailService mailService) {
+    public DonationResource(DonationRepository donationRepository, DonationService donationService) {
 
         this.donationRepository = donationRepository;
         this.donationService = donationService;
-        this.mailService = mailService;
     }
 
     /**

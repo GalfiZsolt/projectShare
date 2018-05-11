@@ -1,5 +1,13 @@
 {
     "donation": {
-        "title": "Donații"
-    }
+        "title": "Donații",
+    		"column": {
+			"title": "Titlu",
+			"description": "Descriere",
+			"type": "Tip",
+			"createdDate": "Creat la data",
+			"lastModifiedBy": "Modifcat de",
+			"lastModifiedDate": "Modificat la data"
+		}
+	}
 }

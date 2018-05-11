@@ -7,6 +7,7 @@ import {
   donationState,
   DonationComponent
 } from './';
+import { JhiDonationService } from './donation/donation.service';
 
 @NgModule({
   imports: [
@@ -20,6 +21,7 @@ import {
   entryComponents: [
   ],
   providers: [
+    JhiDonationService
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })

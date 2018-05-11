@@ -1,5 +1,13 @@
 {
-    "donation": {
-        "title": "Donations"
-    }
+	"donation": {
+		"title": "Donations",
+		"column": {
+			"title": "Title",
+			"description": "Description",
+			"type": "Type",
+			"createdDate": "Created at",
+			"lastModifiedBy": "Last modified by",
+			"lastModifiedDate": "Last modified at"
+		}
+	}
 }
