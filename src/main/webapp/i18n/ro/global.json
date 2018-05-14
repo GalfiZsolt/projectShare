@@ -1,6 +1,6 @@
 {
     "global": {
-        "title": "ProjectShare",
+        "title": "Food Sharing",
         "browsehappy": "Folosiți un browser <strong>vechi</strong>. Va rugăm <a href=\"http://browsehappy.com/?locale=en\"> să îl actualizați</a> pentru o experiență îmbunătațită.",
         "menu": {
             "home": "Acasă",
@@ -138,5 +138,5 @@
         "emailexists": "Emailul este deja folosit!",
         "idexists": "O nouă entitate {{entityName}} nu poate avea un ID existent"
     },
-    "footer": "Acesta este subsolul paginii dumneavoastră"
+    "footer": "Galfi Zsolt 2018"
 }
