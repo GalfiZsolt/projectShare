@@ -5,6 +5,7 @@
 			"title": "Titlu",
 			"description": "Descriere",
 			"type": "Tip",
+			"quantity": "Cantitate",
 			"createdDate": "Creat la data",
 			"lastModifiedBy": "Modifcat de",
 			"lastModifiedDate": "Modificat la data"

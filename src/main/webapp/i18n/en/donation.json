@@ -5,6 +5,7 @@
 			"title": "Title",
 			"description": "Description",
 			"type": "Type",
+			"quantity": "Qunatity",
 			"createdDate": "Created at",
 			"lastModifiedBy": "Last modified by",
 			"lastModifiedDate": "Last modified at"

@@ -16,7 +16,7 @@ export class DonationComponent implements OnInit {
   ngOnInit() {
     this.donationService.getAllDonations().subscribe((res: HttpResponse<Donation[]>) => {
       this.donations = res.body;
-      console.log("donations:" + this.donations);
+      console.log("donations:" + res);
     });
   }
 
