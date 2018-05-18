@@ -5,8 +5,9 @@ import {ProjectShareSharedModule} from '../shared';
 
 import {
   donationState,
-  DonationComponent
+  DonationComponent,
 } from './';
+import { DonationEditComponent } from './donation/donation-edit.component';
 import { JhiDonationService } from './donation/donation.service';
 
 @NgModule({
@@ -16,7 +17,8 @@ import { JhiDonationService } from './donation/donation.service';
     /* jhipster-needle-add-admin-module - JHipster will add admin modules here */
   ],
   declarations: [
-    DonationComponent
+    DonationComponent,
+    DonationEditComponent
   ],
   entryComponents: [
   ],

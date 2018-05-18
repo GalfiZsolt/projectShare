@@ -2,8 +2,14 @@
 	<h2>
 		<span jhiTranslate="donation.title">Donations</span>
 	</h2>
-	    <div class="table-responsive" *ngIf="donations">
-        <table class="table table-striped">
+	<a class="link" routerLink="/donations/create"
+		routerLinkActive="active"> <span> <i class="fa plus-square"
+			aria-hidden="true"></i> <span jhiTranslate="donation.add">Add
+				new Donation</span>
+	</span>
+	</a>
+	<div class="table-responsive" *ngIf="donations">
+		<table class="table table-striped">
 			<thead>
 				<tr>
 					<th><span jhiTranslate="donation.column.title">Title</span> <span
@@ -36,5 +42,5 @@
 				</tr>
 			</tbody>
 		</table>
-    </div>
+	</div>
 </div>

@@ -7,11 +7,20 @@ import { HttpResponse } from '@angular/common/http';
 
 @Injectable()
 export class JhiDonationService {
+    private resourceUrl = SERVER_API_URL + 'api/donations';
 
     constructor(private http: HttpClient) {}
 
+   create(donation: Donation): Observable<HttpResponse<Donation>> {
+        return this.http.post<Donation>(this.resourceUrl, donation, { observe: 'response' });
+    }
+
+      update(donation: Donation): Observable<HttpResponse<Donation>> {
+        return this.http.put<Donation>(this.resourceUrl, donation, { observe: 'response' });
+    }
+
     getAllDonations(): Observable<HttpResponse<Donation[]>>{
-        return this.http.get<Donation[]>(SERVER_API_URL + 'api/donations', { observe: 'response' });
+        return this.http.get<Donation[]>(this.resourceUrl, { observe: 'response' });
     }
 
 }

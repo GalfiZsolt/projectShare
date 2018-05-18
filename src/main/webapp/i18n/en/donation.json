@@ -1,6 +1,7 @@
 {
 	"donation": {
 		"title": "Donations",
+		"add" :"Add new Donation",
 		"column": {
 			"title": "Title",
 			"description": "Description",
@@ -9,6 +10,15 @@
 			"createdDate": "Created at",
 			"lastModifiedBy": "Last modified by",
 			"lastModifiedDate": "Last modified at"
+		},
+		"detail": {
+			"title": "Donation details"
+		},
+		"edit": {
+			"title": "Title",
+			"description": "Description",
+			"type": "Type",
+			"quantity": "Quantity"
 		}
 	}
 }

@@ -1,13 +1,17 @@
 import {Routes} from '@angular/router';
 
 import {
-  donationRoute
+  donationRoute,
+donationCreateRoute,
+donationEditRoute
 } from './';
 
 import {UserRouteAccessService} from '../shared';
 
 const DONATION_ROUTES = [
-  donationRoute
+  donationRoute,
+  donationCreateRoute,
+  donationEditRoute
 ];
 
 export const donationState: Routes = [{

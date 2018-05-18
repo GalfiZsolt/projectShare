@@ -1,7 +1,8 @@
 {
-    "donation": {
-        "title": "Donații",
-    		"column": {
+	"donation": {
+		"title": "Donații",
+		"add": "Donație noua",
+		"column": {
 			"title": "Titlu",
 			"description": "Descriere",
 			"type": "Tip",
@@ -9,6 +10,15 @@
 			"createdDate": "Creat la data",
 			"lastModifiedBy": "Modifcat de",
 			"lastModifiedDate": "Modificat la data"
+		},
+		"detail": {
+			"title": "Detalii donație"
+		},
+		"edit": {
+			"title": "Titlu",
+			"description": "Descriere",
+			"type": "Tip",
+			"quantity": "Cantitate"
 		}
 	}
 }
